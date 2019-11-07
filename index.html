@@ -293,6 +293,23 @@
                           <input type="text" class="form-control" name="name" placeholder="Ваше имя и фамилия" data-form-field="Name" required="" id="name-form1-w class="form-control display-7" id="email-form3-h"">
                            
                         </div>
+                      <div class="row rsvp-radios">
+<div class="col-md-4 m-b-sm">
+<input type="hidden" name="RsvpForm[willbe]" value=""><div id="rsvpform-willbe"><label><input type="radio" name="RsvpForm[willbe]" value="yes" checked> Присутствие подтверждаю</label>
+<label><input type="radio" name="RsvpForm[willbe]" value="no"> К сожалению, не смогу быть</label></div> </div>
+<div class="col-md-4 m-b-sm" id="rsvp-extra">
+<input type="hidden" name="RsvpForm[pair]" value=""><div id="rsvpform-pair"><label><input type="radio" name="RsvpForm[pair]" value="no" checked> Буду один/одна</label>
+<label><input type="radio" name="RsvpForm[pair]" value="yes"> Буду с парой</label></div> <div id="rsvp-block-with_child">
+<input type="hidden" name="RsvpForm[with_child]" value="0"><label><input type="checkbox" id="rsvpform-with_child" name="RsvpForm[with_child]" value="1"> С детьми</label>
+</div>
+<div id="rsvp-block-car">
+<input type="hidden" name="RsvpForm[car]" value="0"><label><input type="checkbox" id="rsvpform-car" name="RsvpForm[car]" value="1"> На машине</label> </div>
+</div>
+<div class="col-md-4 m-b-sm inplace-edit " data-type="checkbox" data-name="rsvp-food-visible" data-label="Возможность выбора еды" data-value="1" id="rsvp-food">
+<input type="hidden" name="RsvpForm[food]" value=""><div id="rsvpform-food"><label><input type="radio" name="RsvpForm[food]" value="0"> Не важно</label>
+<label><input type="radio" name="RsvpForm[food]" value="1"> Мясо</label>
+<label><input type="radio" name="RsvpForm[food]" value="2"> Рыба</label></div> </div>
+</div>
                         <div class="col-auto input-group-btn"><button type="submit" class="btn btn-primary display-4">ПОДТВЕРДИТЬ</button></div>
                     </div>
                 </form><!---Formbuilder Form--->
