@@ -1421,6 +1421,9 @@ section.lazy-placeholder:after {
     padding: 0 0.5rem;
   }
 }
+#htmlblock-block-n DIV {
+  color: #ffffff;
+}
 .cid-rH5khhWZ04 {
   padding-top: 60px;
   padding-bottom: 60px;
